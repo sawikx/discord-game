@@ -250,11 +250,6 @@ case "ghelp": //informacje o komendach do gry
   message.channel.send(h+f+enter+"!gildia-z - pozwala zdobyć klase: złodzieja, zabójcy, zbój"+enter+enter+"!akademia - pozwala zdobyć klase: mag ognia, ziemi, wody, powietrza"+enter+enter+"!koszary - pozwala zdobyć klase: cięszkozbrojnego-rycerza, samuraja, lekkozbrojnego-rycerza, cięszkozbrojnego-jeźdźca, lekkozbrojnego-jeźdźca, łucznika"+enter+enter+"!trening - pozwala na wbicie lvl 0-10 i 11-49"+h);
   message.channel.send(h+f+enter+"-----------------------------"+enter+"Mechaniki w grze!"+enter+enter+"klasa - daje stałe dodatkowe statystyki"+enter+enter+"speed - decyduje kto pierwszy zaatakuje"+enter+enter+"krytyk - pozwala zadać dodatkowe obrażenia mnożone przez mnożnik"+enter+enter+"hp - ilość życia"+enter+enter+"atak - ilosć ataku"+h)
   break;
-  case "aktualizacja":
-    var h="```";
-    var f="fix"
-    message.channel.send(h+f+enter+"aktualizacja na wersje 0.5.6 "+enter+enter+"Aktualizacja"+enter+"Porawa błedu przy zdobywanym goldzie"+h);
-  break;
   case 'postać': //dodawanie postaci lub sprawdzenie postaci
    let[imiepos,rasapos]=args;
    //console.log(numerposraci);
